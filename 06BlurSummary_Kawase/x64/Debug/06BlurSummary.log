@@ -1,0 +1,4 @@
+﻿  Main.cpp
+F:\myCode\DX12\learning\06BlurSummary_Kawase\Main.cpp(1333,19): warning C4244: “=”: 从“UINT64”转换到“UINT”，可能丢失数据
+F:\myCode\DX12\learning\06BlurSummary_Kawase\Main.cpp(1430,23): warning C4018: “<”: 有符号/无符号不匹配
+  06BlurSummary.vcxproj -> F:\myCode\DX12\learning\06BlurSummary_Kawase\x64\Debug\06BlurSummary.exe

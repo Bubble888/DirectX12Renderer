@@ -1,0 +1,4 @@
+﻿  Main.cpp
+F:\myCode\DX12\learning\04ComputeShaderBlur\Main.cpp(1314,19): warning C4244: “=”: 从“UINT64”转换到“UINT”，可能丢失数据
+F:\myCode\DX12\learning\04ComputeShaderBlur\Main.cpp(1425,23): warning C4018: “<”: 有符号/无符号不匹配
+  04ComputeShaderBlur.vcxproj -> F:\myCode\DX12\learning\04ComputeShaderBlur\x64\Debug\04ComputeShaderBlur.exe

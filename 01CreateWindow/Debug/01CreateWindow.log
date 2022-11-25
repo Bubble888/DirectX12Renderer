@@ -1,0 +1,4 @@
+﻿  Main.cpp
+F:\myCode\DX12\learning\01CreateWindow\Main.cpp(143,23): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+F:\myCode\DX12\learning\01CreateWindow\Main.cpp(143,15): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  01CreateWindow.vcxproj -> F:\myCode\DX12\learning\01CreateWindow\Debug\01CreateWindow.exe

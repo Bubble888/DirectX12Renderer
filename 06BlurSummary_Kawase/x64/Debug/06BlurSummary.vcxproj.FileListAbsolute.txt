@@ -1,0 +1,2 @@
+F:\myCode\DX12\learning\06BlurSummary\x64\Debug\06BlurSummary.exe
+F:\myCode\DX12\learning\06BlurSummary_Kawase\x64\Debug\06BlurSummary.exe
