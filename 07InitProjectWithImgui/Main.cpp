@@ -439,6 +439,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR    l
 
 	DXGI_FORMAT				emRenderTarget = DXGI_FORMAT_R8G8B8A8_UNORM;
 	const float						faClearColor[] = { 0.0f, 0.2f, 0.4f, 1.0f };
+	float							arClearColor[] = { 0.0f, 0.2f, 0.4f, 1.0f };
 
 	UINT								nDXGIFactoryFlags = 0U;
 	UINT								nRTVDescriptorSize = 0U;
@@ -1268,7 +1269,6 @@ int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR    l
 
 
 
-				float arClearColor[] = { 0.0f, 0.2f, 0.4f, 1.0f };
 				ImGui_ImplDX12_NewFrame();
 				ImGui_ImplWin32_NewFrame();
 				ImGui::NewFrame();
