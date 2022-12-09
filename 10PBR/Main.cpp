@@ -750,8 +750,6 @@ int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR    l
 
 			TCHAR roughnessName[] = _T("Weapon_Roughness.png");
 			nPicRowPitch = UploadTexture(pIBMPRoughness, pIWICFactory, pIWICDecoder, pIWICFrame, stTextureFormat, nTextureW, nTextureH, nBPP, pszAppPath, roughnessName);
-
-
 		}
 
 		//4、打开显示子系统的调试支持
@@ -873,7 +871,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR    l
 		{
 			D3D12_DESCRIPTOR_HEAP_DESC stSRVHeapDesc = {};
 			stSRVHeapDesc.NumDescriptors = 7;
-			//第一个是srv的纹理，第二个是cbv，第三四个是AB两个延迟渲染的GBuffer，因为他俩将来是第二个pass的输入
+			//第一个是srv的纹理，第二个是cbv，第三四个是AB两个延迟渲染的GBuffer，因为他俩将来是第二个pass的输入,多的后三个就是三张shader的纹理了。
 			stSRVHeapDesc.Type = D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV;
 			stSRVHeapDesc.Flags = D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE;
 
@@ -1723,9 +1721,8 @@ int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR    l
 		ShowWindow(hWnd, nCmdShow);
 		UpdateWindow(hWnd);
 
-
+		float lightDir[3] = {239/256.0, 14/256.0, 0};
 		//initialize the property of parameter
-		pMVPBuffer->lightDir = XMFLOAT3(239/256.0, 14/256.0, 0);
 		pMVPBuffer->baseColorIntensity = 3.597;
 		pMVPBuffer->metallicIntensity =0.888;
 		pMVPBuffer->roughnessIntensity = 0.905;
@@ -1750,7 +1747,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR    l
 				bool show_demo_window = true;
 				//ImGui::ShowDemoWindow(&show_demo_window);
 				ImGui::Begin("Clear Control Pannel");
-				float lightDir[3];
+				
 				ImGui::ColorEdit3("lightDir", lightDir);
 				pMVPBuffer->lightDir = XMFLOAT3(lightDir);
 				ImGui::SliderFloat("BaseColor", &(pMVPBuffer->baseColorIntensity), 0.2, 4.0);
