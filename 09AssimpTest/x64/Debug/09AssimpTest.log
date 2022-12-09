@@ -1,0 +1,9 @@
+﻿  已复制         1 个文件。
+  已复制         1 个文件。
+  Main.cpp
+F:\myCode\DX12\learning\09AssimpTest\Main.cpp(1412,84): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\09AssimpTest\Main.cpp(1412,84): warning C4267: “初始化”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\09AssimpTest\Main.cpp(1413,89): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\09AssimpTest\Main.cpp(1413,89): warning C4267: “初始化”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\09AssimpTest\Main.cpp(1746,73): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+  09AssimpTest.vcxproj -> F:\myCode\DX12\learning\09AssimpTest\x64\Debug\09AssimpTest.exe

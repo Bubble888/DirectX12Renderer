@@ -1,4 +1,1 @@
-﻿  Main.cpp
-F:\myCode\DX12\learning\05RenderToTexture\Main.cpp(1315,19): warning C4244: “=”: 从“UINT64”转换到“UINT”，可能丢失数据
-F:\myCode\DX12\learning\05RenderToTexture\Main.cpp(1416,23): warning C4018: “<”: 有符号/无符号不匹配
-  05RenderToTexture.vcxproj -> F:\myCode\DX12\learning\05RenderToTexture\x64\Debug\05RenderToTexture.exe
+﻿  05RenderToTexture.vcxproj -> F:\myCode\DX12\learning\05RenderToTexture\x64\Debug\05RenderToTexture.exe

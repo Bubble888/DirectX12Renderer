@@ -1,0 +1,22 @@
+﻿  已复制         1 个文件。
+  已复制         1 个文件。
+  Main.cpp
+F:\myCode\DX12\learning\10PBR\Main.cpp(1485,84): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\10PBR\Main.cpp(1485,84): warning C4267: “初始化”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\10PBR\Main.cpp(1486,89): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\10PBR\Main.cpp(1486,89): warning C4267: “初始化”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\10PBR\Main.cpp(1729,41): warning C4305: “=”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1730,39): warning C4305: “=”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1731,41): warning C4305: “=”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1756,80): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1757,78): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1758,80): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1760,70): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1761,77): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1762,75): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1763,63): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1764,71): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1765,71): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1766,81): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\10PBR\Main.cpp(1857,73): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+  10PBR.vcxproj -> F:\myCode\DX12\learning\10PBR\x64\Debug\10PBR.exe
