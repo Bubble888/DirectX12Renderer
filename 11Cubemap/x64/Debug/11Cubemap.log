@@ -1,0 +1,29 @@
+﻿  已复制         1 个文件。
+  已复制         1 个文件。
+  11Main.cpp
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(1643,84): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(1643,84): warning C4267: “初始化”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(1644,89): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(1644,89): warning C4267: “初始化”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(1810,91): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(1810,91): warning C4267: “初始化”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(1811,96): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(1811,96): warning C4267: “初始化”: 从“size_t”转换到“const uint32_t”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2007,41): warning C4305: “=”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2008,40): warning C4305: “=”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2009,41): warning C4305: “=”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2034,80): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2035,78): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2036,80): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2038,70): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2039,77): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2040,75): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2041,63): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2042,71): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2043,71): warning C4305: “参数”: 从“double”到“float”截断
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2091,96): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2091,74): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2091,52): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2152,73): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+F:\myCode\DX12\learning\11Cubemap\11Main.cpp(2199,73): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+  11Cubemap.vcxproj -> F:\myCode\DX12\learning\11Cubemap\x64\Debug\11Cubemap.exe
